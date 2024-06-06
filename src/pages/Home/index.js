@@ -50,7 +50,11 @@ const Home = () => {
     };
       
     
-    if(!user) return;
+    if(!user) {
+        alert("Você não está logado!");
+        navigate("/signin");
+        return null;
+    };
 
 
     return (

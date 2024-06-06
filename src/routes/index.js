@@ -7,7 +7,6 @@ import useAuth  from "../hooks/useAuth";
 
 const Private = ({Item}) => {
     const signed = useAuth();
-
     return signed ? <Item />: <SignIn />;
 }
 

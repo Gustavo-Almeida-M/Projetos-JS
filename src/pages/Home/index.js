@@ -56,7 +56,6 @@ const Home = () => {
         return null;
     };
 
-
     return (
         <C.Container id="container">
             <C.Title>Home</C.Title>
